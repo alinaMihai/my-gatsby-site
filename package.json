@@ -10,13 +10,18 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --log-pages",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "gatsby": "^3.13.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@telenko/node-mf": "^0.0.5",
+    "html-webpack-plugin": "^5.3.2"
   }
 }
